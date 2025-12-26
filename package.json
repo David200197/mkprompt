@@ -1,0 +1,38 @@
+{
+  "name": "mkprompt",
+  "version": "1.0.0",
+  "description": "A powerful command-line tool that generates dynamic prompts with variable substitution, perfect for AI assistants and templating workflows.",
+  "main": "bin/mkprompt.js",
+  "bin": {
+    "mkprompt": "./bin/mkprompt.js"
+  },
+  "scripts": {
+    "test": "node bin/mkprompt.js",
+    "prepublishOnly": "node bin/mkctx.js --version",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
+    "deploy": "npm publish",
+    "deploy:dry": "npm publish --dry-run"
+  },
+  "keywords": [
+    "prompt",
+    "template",
+    "ai",
+    "chatgpt",
+    "claude",
+    "llm",
+    "cli",
+    "markdown",
+    "dynamic-prompts"
+  ],
+  "author": "David200197",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
