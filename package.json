@@ -1,7 +1,7 @@
 {
   "name": "mkprompt",
-  "version": "1.0.0",
-  "description": "A powerful command-line tool that generates dynamic prompts with variable substitution, perfect for AI assistants and templating workflows.",
+  "version": "1.0.1",
+  "description": "A CLI tool that generates dynamic prompts from templates using variable substitution, perfect for AI assistants and repeatable workflows.",
   "main": "bin/mkprompt.js",
   "bin": {
     "mkprompt": "./bin/mkprompt.js"
@@ -24,7 +24,10 @@
     "llm",
     "cli",
     "markdown",
-    "dynamic-prompts"
+    "dynamic-prompts",
+    "prompt-generator",
+    "ai-prompts",
+    "templating"
   ],
   "author": "David200197",
   "license": "MIT",
@@ -33,6 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
-  }
+    "url": "git+https://github.com/David200197/mkprompt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/David200197/mkprompt/issues"
+  },
+  "homepage": "https://github.com/David200197/mkprompt#readme"
 }

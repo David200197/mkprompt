@@ -4,11 +4,7 @@
 
 # mkprompt - Dynamic Prompt Generator
 
-A powerful command-line tool that generates dynamic prompts with variable substitution, perfect for AI assistants and templating workflows.
-
-[![npm version](https://img.shields.io/npm/v/mkprompt.svg)](https://www.npmjs.com/package/mkprompt)
-[![npm downloads](https://img.shields.io/npm/dm/mkprompt.svg)](https://www.npmjs.com/package/mkprompt)
-[![license](https://img.shields.io/npm/l/mkprompt.svg)](https://github.com/yourusername/mkprompt/blob/main/LICENSE)
+A CLI tool that generates dynamic prompts from templates using variable substitution, perfect for AI assistants and repeatable workflows.
 
 ## Features
 
@@ -267,6 +263,10 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
+
+## Author
+
+**David200197** - [GitHub](https://github.com/David200197)
 
 ## Related Projects
 
